@@ -110,3 +110,39 @@
   }
 }
 
+.about-section-left-details{
+  overflow: auto;
+  border-radius: 25px;
+  background-color: #e64833;
+  margin-right: 12%;
+}
+.about{
+  padding: 20px;
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+  border-radius: 25px;
+  background-color: #e64833;
+  color: white;
+}
+.skills {
+  border-right: 3px solid white;
+  border-radius: 0px;
+}
+.dsa {
+  border-left: 3px solid white;
+  border-radius: 0px;
+}
+.box {
+  border: 1px solid #ddd;
+  /* padding: 20px; */
+  text-align: center;
+  /* width: 200px; */
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-right: 95px;
+  margin-left: -5px;
+}
+.box span {
+  font-size: 0.8em;
+  color: #666;
+}
