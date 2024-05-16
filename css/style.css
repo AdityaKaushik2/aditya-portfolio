@@ -263,3 +263,27 @@
     margin-top: 20px;
   }
 }
+
+.github-heading {
+  position: relative;
+  margin-left: 13%;
+  margin-right: 12%;
+  margin-top: 2%;
+  margin-bottom: 25px;
+  color: #e64833;
+  font-size: 22px;
+  font-weight: lighter;
+  font-family: Calibri;
+}
+.github-heading h1{
+  padding-top: 40px;
+}
+.github-heading h1::before {
+  content: "";
+  position: absolute;
+  top: 72%;
+  left: 37%;
+  width: 63%;
+  height: 3px;
+  background-color: #e64833;
+}
